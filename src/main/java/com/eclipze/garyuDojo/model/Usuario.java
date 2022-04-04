@@ -39,6 +39,8 @@ public class Usuario {
 	@Size (min = 5, max = 100)
 	private String senha;
 	
+	private String foto;
+	
 	
 
 	public long getId() {
@@ -79,6 +81,14 @@ public class Usuario {
 
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
 	}
 	
 
